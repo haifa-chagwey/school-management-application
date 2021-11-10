@@ -13,7 +13,7 @@ public class StudentDBUtil {
 	
 	public static Connection ConnectToDB() throws Exception {
 		Class.forName("com.mysql.cj.jdbc.Driver");
-		Connection myConn = DriverManager.getConnection("jdbc:mysql://localhost:3306/web_student_tracker","root","XXXXXX");
+		Connection myConn = DriverManager.getConnection("jdbc:mysql://localhost:3306/web_student_tracker","root","haifa2000");
 		return myConn;
 	}
 
